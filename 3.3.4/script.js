@@ -15,7 +15,8 @@ if (isLoggedIn) {
 
 let age = 20;
 let hasDriverLicense = true;
-if(age >=18) {
+
+if(age >=18 && hasDriverLicense) {
     console.log("Můžeš řídit!")
 } else {
     console.log("Řídit nemůžeš!")
