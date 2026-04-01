@@ -1,4 +1,4 @@
-let sge = 20;
+let age = 20;
 
 if(age > 20) {
     console.log("Věk je větší než 20");
